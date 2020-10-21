@@ -33,7 +33,7 @@ const app = express()
 // }) 
 
 app.get('/',(req,res)=>{
-    res.send("welcometo the home page")
+    res.send("welcometo the homeasdasd page")
 });
 const port=process.env.port||300
 server.listen(port,()=>{
