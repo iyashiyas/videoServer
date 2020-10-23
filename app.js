@@ -26,12 +26,7 @@ io.on('connection',socket =>{
     })
 
     
-})
-const port=process.env.port||300
-server.listen(port,()=>{
-console.log("started")
 }) 
-
  
 const port=process.env.port||300
 server.listen(port,()=>{
